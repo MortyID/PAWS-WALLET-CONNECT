@@ -1,0 +1,14 @@
+json
+requests
+time
+urllib3
+colorama
+mnemonic
+nacl
+hashlib
+base58
+tqdm
+tonsdk
+os
+sys
+urllib
