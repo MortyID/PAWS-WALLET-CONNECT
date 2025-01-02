@@ -165,10 +165,10 @@ def main():
                 print(f"{green}[ 😋 ] Username      : {username}")
                 print(f"{green}[ 💵 ] Balance       : {balance}")
                 account_info = f"""
-    ---- User: Account #{i} {username} | {firstname} ----
-    Private Key : {private_key_base58}
-    Solana Address : {public_key_base58}
-    """
+---- User: Account #{i} {username} | {firstname} ----
+Private Key : {private_key_base58}
+Solana Address : {public_key_base58}
+"""
                 save_text("privatekey.txt", account_info)
                 save_text("walletsol.txt", f"{public_key_base58}\n")
                 
