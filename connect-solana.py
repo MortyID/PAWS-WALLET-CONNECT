@@ -21,8 +21,8 @@ white = Fore.LIGHTWHITE_EX
 reset = Style.RESET_ALL
 magenta = Fore.LIGHTMAGENTA_EX
 proxy = {
-    "http": "http://gtdzcuen4t171bl:pjnxfpyu2u15qmm@rp.proxyscrape.com:6060",
-    "https": "http://gtdzcuen4t171bl:pjnxfpyu2u15qmm@rp.proxyscrape.com:6060",
+    "http": "https://username:password@ip:port",
+    "https": "http://username:password@ip:port",
 }
 
 
