@@ -183,7 +183,7 @@ def main():
                     if bind_response.get('success') and bind_response.get('data'):
                         print(f"{green}[ 🔗 ] Status Wallet : Successfully Connect Wallet.")
                         print(f"{yellow}[ 💼 ] Wallet        : {yellow}{public_key_base58}{reset}")
-                        print(f"{yellow}[ 💼 ] Priva Key     : {yellow}{private_key_base58}{reset}")
+                        print(f"{yellow}[ 🔑 ] Private Key   : {yellow}{private_key_base58}{reset}")
     except KeyboardInterrupt:
         print(f"\n{magenta}========== Program Stopped =========={reset}")
 if __name__ == "__main__":
